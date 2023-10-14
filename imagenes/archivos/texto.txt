@@ -1,0 +1,9 @@
+    <br>
+    <h3>Texto anexado.</h3>
+    <p>Este texto  está en un archivo externo (texto.txt) y se ha agregado al DOM, utilizando <b>fetch</b></p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium modi cum quo iste facere quae quaerat perferendis, nemo ab. Maxime ipsam dicta totam maiores officiis, cum impedit nobis consectetur pariatur nihil eveniet earum, ullam voluptate illo sapiente laudantium nam ducimus similique necessitatibus dolores doloremque ratione quis aliquid suscipit. Dicta quos tempore placeat fuga minima voluptas. Ad dicta ab harum voluptatum aliquid minima nisi optio velit quas voluptatibus rerum, et illo, nemo quo sunt aliquam laboriosam, minus vitae nobis natus sequi. Consequuntur soluta iusto reprehenderit beatae facere quasi. Nulla iure, nemo dolore ipsum tempora quos quae veniam vero labore consequatur enim.</p>
+    <br>
+        <ul>
+        <li>¿Realmente hemos sido capaces de leer un documento de la computadora del usuario?</li>
+        <li><b>No es posible hacerlo,</b> asi que ¿Donde ha quedado la seguridad?</li>
+    </ul>
