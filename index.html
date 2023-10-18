@@ -1,93 +1,358 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Codo a Codo Travel</title>
-    <link 
-    rel="shortcut icon"
-    href="imagenes/viajar.png">
-    <link rel="stylesheet" href="estilos/estilos_general.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-</head>
+    <link rel="shortcut icon" href="imagenes/viajar.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;700&family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="estilos/estilos_general.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
 
-<body>
-    
+  <body>
     <header class="header">
-        <h1 title="Hola Viajero">Codo a Codo Travel</h1>
+      <h1 title="Hola Viajero">Codo a Codo Travel</h1>
     </header>
-    
-    <nav> 
-            <div class="box-1"> 
-                <h2>Novedades</h2>
-                <h3>Mantente actualizado con las últimas novedades del turismo Nacional e Internacional</h3><br>   
-            </div>      
-            <div style="display:flex;justify-content:center;box-sizing:border-box">
-            <div class="cards">
-            <div class="card card--1">
-            <div class="card__info-hover"><img src="imagenes/dolares_viajes.jpg" style="width: 380px;height: 265px;" alt="dolares_viajes">
-            <div class="card__clock-info"><span class="card__time">17/08/2023 &bull; 12:13</span></div>
-            </div>        
-            <div class="card__img">&nbsp;</div>
-            
-            <div class="card__img--hover"><a class="card_link" href="#"><em style="display:none">&nbsp;</em></a></div>
-       
-            <div class="card__info"><span class="card__category">Turismo Internacional</span> <a class="card__title" href="Novedad 1.html">El impacto de la suba del dólar en los viajes al exterior</a> <span class="card__by">by <a class="card__author" href="#" title="author">Cadena 3</a></span></div>
-            </div>
-            
-            <div class="card card--2">
-            <div class="card__info-hover"><img src="imagenes/telefono.avif" style="width: 380px;height: 265px;" alt="google">
-            <div class="card__clock-info"><span class="card__time">17/07/2023 &bull; 17:36</span></div>
-            </div>
-            
-            <div class="card__img">&nbsp;</div>
-            
-            <div class="card__img--hover"><a class="card_link" href="#"><em style="display:none">&nbsp;</em></a></div>
-            
-            <div class="card__info"><span class="card__category">Tecno</span> <a class="card__title" href="Novedad 2.html"><br>Cómo cambiar la ubicación de Google Play Store para descargar aplicaciones en viajes</a> <span class="card__by">by <a class="card__author" href="#" title="author">Infobae</a></span></div>
-            </div>
-            
-            <div class="card card--3">
-            <div class="card__info-hover"><img src="imagenes/sellos.jpg" style="width: 380px;height: 265px;" alt="vacaciones">
-            <div class="card__clock-info"><span class="card__time">25/01/2023 &bull; 15:39</span></div>
-            </div>
-            
-            <div class="card__img">&nbsp;</div>
-            
-            <div class="card__img--hover"><a class="card_link" href="Novedad 3.html"><em style="display:none">&nbsp;</em></a></div>
-            
-            <div class="card__info"><span class="card__category">Turismo Internacional</span> <a class="card__title" href="Novedad 3.html">Vacaciones 2023: los 3 destinos turísticos internacionales más elegidos por los argentinos</a>
-            <span class="card__by">by <a class="card__author" href="#" title="author">El Destape</a></span></div>
-            </div>
-            </div>
-            </div>  
 
-    </nav> 
-    <main><br>
-        &nbsp;
-        <div class="box-4"> 
-            <div align="center"><img src="imagenes/plane-83_256.gif" alt="Animación GIF"></div>
-            <h3> Turismo Nacional e Internacional </h3> 
+    <section class="sectionCardsClima">
+      <h2 id="tittleViajes">Salidas grupales de Agosto Diciembre 2023</h2>
+
+      <section class="cardsContainer">
+        <article class="cardViaje">
+          <a href="#" class="aCard">
+            <img
+              src="https://www.zamoranoviajes.tur.ar/wp-content/uploads/2020/08/villa-carlos-paz-primavera-1-700x466.jpg"
+              class="imagenDestino"
+              alt="Destino del viaje"
+            />
+            <p class="precio">$132999</p>
+          </a>
+          <div class="tittleDiv">
+            <h4 class="destino">Villa Carlos Paz</h4>
+            <p class="fechaOferta">Agosto a Diciembre 2023</p>
+          </div>
+          <div class="diasDiv">
+            <p class="dias">⏱️7 días</p>
+          </div>
+        </article>
+        <article class="cardViaje">
+          <a href="#" class="aCard">
+            <img
+              src="https://www.zamoranoviajes.tur.ar/wp-content/uploads/2020/08/cataratas-del-iguazu-primavera-700x466.jpg"
+              class="imagenDestino"
+              alt="Destino del viaje"
+            />
+            <p class="precio">$132999</p>
+          </a>
+          <div class="tittleDiv">
+            <h4 class="destino">Cataratas del Iguazú</h4>
+            <p class="fechaOferta">Septiembre a Diciembre 2023</p>
+          </div>
+          <div class="diasDiv">
+            <p class="dias">⏱️10 días</p>
+          </div>
+        </article>
+        <article class="cardViaje">
+          <a href="#" class="aCard">
+            <img
+              src="https://www.zamoranoviajes.tur.ar/wp-content/uploads/2020/08/federacion-primavera-700x466.jpg"
+              class="imagenDestino"
+              alt="Destino del viaje"
+            />
+            <p class="precio">$191999</p>
+          </a>
+          <div class="tittleDiv">
+            <h4 class="destino">Federación</h4>
+            <p class="fechaOferta">Septiembre a Noviembre 2023</p>
+          </div>
+          <div class="diasDiv">
+            <p class="dias">⏱️14 días</p>
+          </div>
+        </article>
+        <article class="cardViaje">
+          <a href="#" class="aCard">
+            <img
+              src="https://www.zamoranoviajes.tur.ar/wp-content/uploads/2020/08/bariloche-primavera-700x466.jpg"
+              class="imagenDestino"
+              alt="Destino del viaje"
+            />
+            <p class="precio">$177999</p>
+          </a>
+          <div class="tittleDiv">
+            <h4 class="destino">Bariloche</h4>
+            <p class="fechaOferta">Octubre 2023</p>
+          </div>
+          <div class="diasDiv">
+            <p class="dias">⏱️7 días</p>
+          </div>
+        </article>
+        <article class="cardViaje">
+          <a href="#" class="aCard">
+            <img
+              src="https://www.zamoranoviajes.tur.ar/wp-content/uploads/2022/02/camboriu.jpg"
+              class="imagenDestino"
+              alt="Destino del viaje"
+            />
+            <p class="precio">$245999 + Impuestos</p>
+          </a>
+          <div class="tittleDiv">
+            <h4 class="destino">Camboriu Adicionales Diciembre</h4>
+            <p class="fechaOferta">Diciembre 2023</p>
+          </div>
+          <div class="diasDiv">
+            <p class="dias">⏱️11 días</p>
+          </div>
+        </article>
+        <article class="cardViaje">
+          <a href="#" class="aCard">
+            <img
+              src="https://www.zamoranoviajes.tur.ar/wp-content/uploads/2020/08/merlo-primavera-700x466.jpg"
+              class="imagenDestino"
+              alt="Destino del viaje"
+            />
+            <p class="precio">$109999</p>
+          </a>
+          <div class="tittleDiv">
+            <h4 class="destino">Merlo</h4>
+            <p class="fechaOferta">Septiembre a Noviembre 2023</p>
+          </div>
+          <div class="diasDiv">
+            <p class="dias">⏱️7 días</p>
+          </div>
+        </article>
+        <article class="cardViaje">
+          <a href="#" class="aCard">
+            <img
+              src="https://www.zamoranoviajes.tur.ar/wp-content/uploads/2020/08/mendoza-primera-700x466.jpg"
+              class="imagenDestino"
+              alt="Destino del viaje"
+            />
+            <p class="precio">$158999</p>
+          </a>
+          <div class="tittleDiv">
+            <h4 class="destino">Mendoza & San Rafael</h4>
+            <p class="fechaOferta">Septiembre a Diciembre 2023</p>
+          </div>
+          <div class="diasDiv">
+            <p class="dias">⏱️7 días</p>
+          </div>
+        </article>
+        <article class="cardViaje">
+          <a href="#" class="aCard">
+            <img
+              src="https://www.zamoranoviajes.tur.ar/wp-content/uploads/2020/08/san-martin-de-los-andes-primavera-700x466.jpg"
+              class="imagenDestino"
+              alt="Destino del viaje"
+            />
+            <p class="precio">$177999</p>
+          </a>
+          <div class="tittleDiv">
+            <h4 class="destino">San Martín de los Andes & Bariloche</h4>
+            <p class="fechaOferta">Octubre Y Noviembre 2023</p>
+          </div>
+          <div class="diasDiv">
+            <p class="dias">⏱️7 días</p>
+          </div>
+        </article>
+        <article class="cardViaje">
+          <a href="#" class="aCard">
+            <img
+              src="https://www.zamoranoviajes.tur.ar/wp-content/uploads/2020/08/villa-carlos-paz-primavera-1-700x466.jpg"
+              class="imagenDestino"
+              alt="Destino del viaje"
+            />
+            <p class="precio">$132999</p>
+          </a>
+          <div class="tittleDiv">
+            <h4 class="destino">Cataratas del Iguazú</h4>
+            <p class="fechaOferta">Septiembre a Diciembre 2023</p>
+          </div>
+          <div class="diasDiv">
+            <p class="dias">⏱️7 días</p>
+          </div>
+        </article>
+      </section>
+
+      <section id="climaSection">
+        <div id="cardViajeClima">
+          <h4 id="climaTitulo">Clima actual en:</h4>
+          <h3 id="ciudadNombre"></h3>
+          <h4 id="grados"></h4>
+          <p id="descripcionClima"></p>
+          <img src="" alt="icono del clima" id="iconoClima" />
         </div>
-  
+      </section>
+    </section>
+    <hr />
+    <nav>
+      <div class="box-1">
+        <h2>Novedades</h2>
+        <h3>
+          Mantente actualizado con las últimas novedades del turismo Nacional e
+          Internacional
+        </h3>
+        <br />
+      </div>
+      <div
+        style="display: flex; justify-content: center; box-sizing: border-box"
+      >
+        <div class="cards">
+          <div class="card card--1">
+            <div class="card__info-hover">
+              <img
+                src="imagenes/dolares_viajes.jpg"
+                style="width: 380px; height: 265px"
+                alt="dolares_viajes"
+              />
+              <div class="card__clock-info">
+                <span class="card__time">17/08/2023 &bull; 12:13</span>
+              </div>
+            </div>
+            <div class="card__img">&nbsp;</div>
 
+            <div class="card__img--hover">
+              <a class="card_link" href="#"
+                ><em style="display: none">&nbsp;</em></a
+              >
+            </div>
 
+            <div class="card__info">
+              <span class="card__category">Turismo Internacional</span>
+              <a class="card__title" href="Novedad 1.html"
+                >El impacto de la suba del dólar en los viajes al exterior</a
+              >
+              <span class="card__by"
+                >by
+                <a class="card__author" href="#" title="author"
+                  >Cadena 3</a
+                ></span
+              >
+            </div>
+          </div>
+
+          <div class="card card--2">
+            <div class="card__info-hover">
+              <img
+                src="imagenes/telefono.avif"
+                style="width: 380px; height: 265px"
+                alt="google"
+              />
+              <div class="card__clock-info">
+                <span class="card__time">17/07/2023 &bull; 17:36</span>
+              </div>
+            </div>
+
+            <div class="card__img">&nbsp;</div>
+
+            <div class="card__img--hover">
+              <a class="card_link" href="#"
+                ><em style="display: none">&nbsp;</em></a
+              >
+            </div>
+
+            <div class="card__info">
+              <span class="card__category">Tecno</span>
+              <a class="card__title" href="Novedad 2.html"
+                ><br />Cómo cambiar la ubicación de Google Play Store para
+                descargar aplicaciones en viajes</a
+              >
+              <span class="card__by"
+                >by
+                <a class="card__author" href="#" title="author"
+                  >Infobae</a
+                ></span
+              >
+            </div>
+          </div>
+
+          <div class="card card--3">
+            <div class="card__info-hover">
+              <img
+                src="imagenes/sellos.jpg"
+                style="width: 380px; height: 265px"
+                alt="vacaciones"
+              />
+              <div class="card__clock-info">
+                <span class="card__time">25/01/2023 &bull; 15:39</span>
+              </div>
+            </div>
+
+            <div class="card__img">&nbsp;</div>
+
+            <div class="card__img--hover">
+              <a class="card_link" href="Novedad 3.html"
+                ><em style="display: none">&nbsp;</em></a
+              >
+            </div>
+
+            <div class="card__info">
+              <span class="card__category">Turismo Internacional</span>
+              <a class="card__title" href="Novedad 3.html"
+                >Vacaciones 2023: los 3 destinos turísticos internacionales más
+                elegidos por los argentinos</a
+              >
+              <span class="card__by"
+                >by
+                <a class="card__author" href="#" title="author"
+                  >El Destape</a
+                ></span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <br />
+      &nbsp;
+      <div class="box-4">
+        <div align="center">
+          <img src="imagenes/plane-83_256.gif" alt="Animación GIF" />
+        </div>
+        <h3>Turismo Nacional e Internacional</h3>
+      </div>
     </main>
     <footer>
-        <center>
-            <h1>Codo a Codo travel</h1>
-            <h3>Síguenos online!</h3>
-      
+      <center>
+        <h1>Codo a Codo travel</h1>
+        <h3>Síguenos online!</h3>
 
-            <a href="https://www.facebook.com/TurismoNacionAR" class="fa fa-facebook-official"></a>
-            <a href="https://www.instagram.com/turismonacionar/" class="fa fa-instagram"></a>
-            <a href="https://twitter.com/TurismoNacionAR?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="fa fa-twitter"></a>
-        </center> 
-        </footer>
-      
+        <a
+          href="https://www.facebook.com/TurismoNacionAR"
+          class="fa fa-facebook-official"
+        ></a>
+        <a
+          href="https://www.instagram.com/turismonacionar/"
+          class="fa fa-instagram"
+        ></a>
+        <a
+          href="https://twitter.com/TurismoNacionAR?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+          class="fa fa-twitter"
+        ></a>
+      </center>
+    </footer>
 
-
-</body>
-
+    <script src="./JS/script.js"></script>
+  </body>
 </html>
